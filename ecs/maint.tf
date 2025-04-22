@@ -4,7 +4,7 @@ provider "aws" {
 
 
 data "aws_ecs_cluster" "awsecs" {
-  cluster_name = "my-existing-cluster"
+  cluster_name = "aws-ecs-cluster"
 }
 
 output "cluster_arn" {
